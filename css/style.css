@@ -1,0 +1,118 @@
+
+    body {
+        background-color: black;
+        /* background-image: linear-gradient(black, purple, blue); */
+        background-image: url('https://img.freepik.com/fotos-gratis/bela-vista-do-ceu-ao-por-do-sol-na-praia_158538-26143.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10px;
+    }
+
+    p {
+        margin: 0px auto;
+        font-weight: bold;
+    }
+
+    #autor {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .container {
+        background-image: linear-gradient(45deg, gray, orange);
+        padding: 60px;
+        margin-top: 2px;
+        height: 95vh;
+        opacity: .8;
+    }
+
+    h2 {
+        text-align: center;
+        box-shadow: 0 0 8px rgb(95, 91, 95);
+        margin: 10px auto;
+        width: 100%;
+        border-radius: 8px;
+        background-image: linear-gradient(aqua, rgb(31, 151, 206), aqua);
+        opacity: .8;
+    }
+
+    .view,
+    .selecao {
+        margin-top: 15px;
+        text-align: center;
+
+        padding: 10px;
+    }
+
+    select {
+        width: 90%;
+        box-shadow: 0 0 8px rgb(95, 91, 95);
+        transition: all 1s;
+        border: none;
+        height: 30px;
+        padding: 3px;
+        border-radius: 6px;
+    }
+    select:hover {
+        
+        box-shadow: 0 0 20px rgb(95, 91, 95);
+    }
+
+    #tela {
+        width: 100%;
+        box-shadow: 0 0 20px rgb(95, 91, 95);
+    }
+    #explic{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background-image: linear-gradient(rgb(255, 187, 0),  aqua,rgb(255, 187, 0));
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px blue;
+    }
+
+    @media(max-width: 600px) {
+        body {
+            background-color: tomato;
+            /* padding: 0px; */
+            /* background-image: linear-gradient(black, tomato, black); */
+            background-image: url('https://img.freepik.com/fotos-gratis/bela-vista-do-ceu-ao-por-do-sol-na-praia_158538-26143.jpg');
+
+        }
+        #explic{
+        width: 90%;
+        background-image: linear-gradient(aqua, rgb(31, 151, 206), aqua);
+        }
+
+        .container {
+            width: 100%;
+            padding: 25px 0px;
+            height: 150vh;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            width: 90%;
+        }
+
+        .view,
+        .selecao {
+            margin: 0 auto;
+            width: 95%;
+        }
+
+        select {
+            margin: 25px auto;
+        }
+
+        #tela {
+            width: 90%;
+            box-shadow: 0 0 20px rgb(95, 91, 95);
+            margin: auto;
+        }
+
+        iframe {
+            width: 100%;
+        }
+    }
